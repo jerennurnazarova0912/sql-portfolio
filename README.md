@@ -19,3 +19,27 @@ The main table `amazon_sales` includes the following key attributes:
 1. Ensure you have **PostgreSQL** installed.
 2. Run the `amazon_project.sql` script to create the table.
 3. Import the dataset using the provided `COPY` command (update the file path accordingly).
+
+
+
+
+
+
+---
+
+# HSBC Loan Analysis 🏦
+
+## Project Overview
+Этот проект посвящен проектированию базы данных для анализа заявок на персональные кредиты в **HSBC**. Основная цель — структурировать данные о заемщиках для оценки кредитных рисков.
+
+## Technical Skills
+* **Database Design:** Создание структуры таблиц для банковских операций.
+* **Data Types:** Использование оптимальных типов данных для финансовых идентификаторов.
+* **Integrity:** Настройка первичных ключей (`PRIMARY KEY`) для исключения дубликатов.
+
+## Database Structure
+Таблица `hsbc_loan_analysis` включает:
+* `loan_id`: Уникальный номер кредита.
+* `gender` & `married`: Демографические данные заемщика.
+* `dependents`: Количество иждивенцев.
+* `education`: Уровень образования для оценки платежеспособности.

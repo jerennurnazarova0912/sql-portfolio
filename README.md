@@ -27,19 +27,21 @@ The main table `amazon_sales` includes the following key attributes:
 
 ---
 
+---
+
 # HSBC Loan Analysis 🏦
 
 ## Project Overview
-Этот проект посвящен проектированию базы данных для анализа заявок на персональные кредиты в **HSBC**. Основная цель — структурировать данные о заемщиках для оценки кредитных рисков.
+This project focuses on designing and implementing a robust database schema to analyze personal loan applications for **HSBC**. The primary goal is to structure borrower demographics and financial data to support automated credit risk assessment and decision-making processes.
 
-## Technical Skills
-* **Database Design:** Создание структуры таблиц для банковских операций.
-* **Data Types:** Использование оптимальных типов данных для финансовых идентификаторов.
-* **Integrity:** Настройка первичных ключей (`PRIMARY KEY`) для исключения дубликатов.
+## Technical Skills Demonstrated
+* **Database Schema Design:** Engineered a relational structure specifically for banking operations.
+* **Optimized Data Types:** Implemented precise data types (`VARCHAR`, `INT`) to ensure storage efficiency for financial identifiers.
+* **Data Integrity:** Enforced `PRIMARY KEY` constraints to maintain unique records and prevent data duplication.
 
 ## Database Structure
-Таблица `hsbc_loan_analysis` включает:
-* `loan_id`: Уникальный номер кредита.
-* `gender` & `married`: Демографические данные заемщика.
-* `dependents`: Количество иждивенцев.
-* `education`: Уровень образования для оценки платежеспособности.
+The `hsbc_loan_analysis` table includes:
+* `loan_id`: Unique identifier for each loan application.
+* `gender` & `married`: Key demographic indicators for borrower profiling.
+* `dependents`: Numerical data on household size to assess financial commitments.
+* `education`: Educational background used as a proxy for earning potential and creditworthiness.
